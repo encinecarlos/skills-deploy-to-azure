@@ -97,7 +97,7 @@ jobs:
         with:
           inlineScript: |
             az logout
-            az cache prge
+            az cache purge
             az account clear
 
 
